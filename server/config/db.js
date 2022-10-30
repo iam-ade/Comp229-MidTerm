@@ -1,3 +1,6 @@
+//db.js, Oduneye Adekunle, 300564856, BookStoreApp
+
+
 module.exports = {
   //local MongoDB deployment ->
   // "URI": "mongodb://127.0.0.1/my_book_store"

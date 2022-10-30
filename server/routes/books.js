@@ -36,14 +36,13 @@ router.get('/details', (req, res, next) => {
 router.post('/details', (req, res, next) => {
 
     /*****************
-     * ADD CODE HERE *
+     * ADDED CODE HERE *
      *****************/
      let newBook = book({
       "name": req.body.name,
       "price": req.body.price,
       "author": req.body.author,
       "genre": req.body.genre,
-      // "price": req.body.price
   });
 
   book.create(newBook, (err, Book) =>{
@@ -63,10 +62,8 @@ router.post('/details', (req, res, next) => {
 // GET the Book Details page in order to edit an existing Book
 router.get('/edit/:id', (req, res, next) => {
 
-  //router.get('/edit/:id', (req, res, next) => {
-
     /*****************
-     * ADD CODE HERE *
+     * ADDED CODE HERE *
      *****************/
      let id = req.params.id;
 
@@ -87,10 +84,10 @@ router.get('/edit/:id', (req, res, next) => {
 
 // POST - process the information passed from the details form and update the document
 router.post('/edit/:id', (req, res, next) => {
-  //router.post('/edit/:id', (req, res, next) => {
+
 
     /*****************
-     * ADD CODE HERE *
+     * ADDED CODE HERE *
      *****************/
      let id = req.params.id
 
@@ -121,7 +118,7 @@ router.post('/edit/:id', (req, res, next) => {
 // GET - process the delete by user id
 router.get('/delete/:id', (req, res, next) => {
     /*****************
-     * ADD CODE HERE *
+     * ADDED CODE HERE *
      *****************/
      let id = req.params.id;
 
@@ -140,6 +137,6 @@ router.get('/delete/:id', (req, res, next) => {
      });
 
 });
-
+//books.js, Oduneye Adekunle, 300564856, BookStoreApp
 
 module.exports = router;

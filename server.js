@@ -1,3 +1,5 @@
+//server.js, Oduneye Adekunle, 300564856, BookStoreApp
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp229-F22-midterm:server');
 let http = require('http');

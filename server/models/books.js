@@ -1,3 +1,5 @@
+//books.js, Oduneye Adekunle, 300564856, BookStoreApp
+
 let mongoose = require('mongoose');
 
 // create a model class

@@ -1,3 +1,5 @@
+//app.js, Oduneye Adekunle, 300564856, BookStoreApp
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
